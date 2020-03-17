@@ -33,7 +33,7 @@ conda install cudnn=7.6.0
 - sox installed (http://sox.sourceforge.net/)
 - check that `KALDI_ROOT` variable is set in `path.sh`
 - adjust commands in cmd.sh to suit your compute cluster/queue
-
+- note this code is sensitive to numpy version, please use `numpy==1.17.4`
 
 
 # Usage
